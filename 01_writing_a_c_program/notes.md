@@ -67,8 +67,13 @@ int main () {
 
 <br>
 
-The program is now ready to be compiled into machine readible byte format as an executable file. 
+The program is now ready to be compiled into machine readable byte format as an executable file. 
 
+When the compilation is successful the compiler creates an executable file alongside the original source code file.
+
+`gcc hello.c -o hello.exe` command will create  an executable file named `hello.exe` alongside the original source code file.
+
+`./hello.exe` command will now run the program and the output will be visible. 
 
 
 
