@@ -35,6 +35,7 @@ dataType functionName () {
 
 <br>
 
+## Return value required by function declaration
 Once the function has executed the statements it can return a value to the caller. The value must be of the `dataType` specified before the `functionName`:
 
 ```C
