@@ -52,9 +52,9 @@ The function declaration states that integer value of the int dataType should be
 
 <br>
 
-## Standard input/output library
+## Standard input/output library functions
 
-A function from the standard input/output library made available by the preprocessor instruction `printf` can be used to an argument:
+A function from the standard input/output library made available by the preprocessor instruction `printf` can be used to print an argument:
 
 ```C
 #include <stdio.h>
