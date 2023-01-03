@@ -6,6 +6,8 @@ The value of variables can be displayed using the `printf()` function. A format 
 printf("%formatSpecifier", nameOfVariable);
 ```
 
+<br>
+
 |Format specifier: |Description: |Example: |
 |:-------------|:-------------|:-------------|
 |%d|An integer|100| 
@@ -14,6 +16,8 @@ printf("%formatSpecifier", nameOfVariable);
 |%c|A single character| 'A' (single char in single quotes)
 |%s|A string of characters|"Hello World!" (string of multiple chars in double quotes)
 |%p|A machine memory address|0x0022FF34
+
+<br>
 
 ### Minimum number of spaces
 A format specifier can ensure the output occupied a minimum number of spaces by stating the specific number after the % character e.g. `%7d` or `%07d` to fill the spaces with zero(0) characters.
