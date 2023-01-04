@@ -20,5 +20,5 @@ The format specifier for an allocated address is "%p" and when printing the memo
 <br>
 
 ### Tips
-The scanf function stops taking each input when a space is entered. 
-You can take more than one input in the same function by providing multiple format specifiers in an individual double quote separated by a space as `&` the multiple variableNames for the addressof storage separated by commas.
+The scanf function stops taking each input when a space is entered.  
+You can take more than one input in the same function by providing multiple format specifiers in an individual double quote separated by a space `&` the multiple variableNames (preceded by `&`) for the addressof storage separated by commas.
