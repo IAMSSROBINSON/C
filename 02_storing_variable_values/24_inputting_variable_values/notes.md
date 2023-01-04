@@ -15,10 +15,10 @@ The `scanf` function requires two arguments:
 
 ### Computer memory
 The computers memory is like a long row of slots each with a unique address (in hexadecimal value) with each unique address slot containing data stored at this address.
-The format specifier for an allocated address is "%p".
+The format specifier for an allocated address is "%p" and when printing the memory address of data stored in a variable you still precede the variable name with &variableName.
 
 <br>
 
 ### Tips
-The scanf function stops taking an input when a space is entered. 
+The scanf function stops taking each input when a space is entered. 
 You can take more than one input in the same function by providing multiple format specifiers in an individual double quote separated by a space as `&` the multiple variableNames for the addressof storage separated by commas.
