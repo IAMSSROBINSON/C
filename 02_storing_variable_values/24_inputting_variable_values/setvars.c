@@ -12,6 +12,6 @@ int main () {
 
 	printf("Your initial is: %c and the unique address in memory is: %p \n", letter, &letter);
 	printf("Your first number is: %d and the unique address in memory is: %p\n" , num1, &num1);
-	printf("Your second number is: %d and the unique address in memory is: %p\n", num2, &num1);
+	printf("Your second number is: %d and the unique address in memory is: %p\n", num2, &num2);
 	return 0;
 }
