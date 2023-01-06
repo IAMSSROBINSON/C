@@ -10,6 +10,18 @@ Local variables: Variables declared within a function
 
 * Only accessibile from within the function in which they were declared (implicit default behavior. Can be explicitly applied with `auto` keyword at declaration).
 
+```C
+#include <stdio.h>
+
+int main () {
+
+  auto char multiChar[] = "autoThisFunctionOnly";
+  printf("%s\n", multiChar);
+
+  return 0;
+}
+```
+
 <br>
 
 Global variables: Variables declared outside of a function block.
