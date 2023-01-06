@@ -1,0 +1,1 @@
+extern num = 200;
