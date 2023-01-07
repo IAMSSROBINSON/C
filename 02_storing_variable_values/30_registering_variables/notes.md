@@ -13,7 +13,6 @@ Prefixing a variable with the `registered` keyword at declaration tells the comp
 - A limited system dependant amount can only be `registered` at any given point.
 - The `register` keyword is ignored by the compiler if the system cannot meet the requirements but the normal variable declaration will still proceed. 
 
-
 <br>
 
 ## `volotile`
