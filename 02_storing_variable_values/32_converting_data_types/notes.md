@@ -32,3 +32,30 @@ newVariableName = (int)fromOriginalVariableName;
 |int 65 |char 'A' |integer value converts to the ASCII character code equivalent|
 int x=7, y=5   |float z=x/y  |calculation will convert to 1.0000000 so for accurate calculation the statements need to be casted: (float)x / (float)y = 1.400000|
 double 0.1234569 |float 0.123457   |value will be rounded up or down to nearest figure|
+
+<br>
+
+### Code examples: 
+
+<br>
+
+```C
+#include <stdio.h>
+
+int main () {
+
+	float num = 5.75;
+	char letter = 'A';
+	int number = 100;
+	int x = 7, y = 5;
+	double decimal = 0.1234569;
+
+	printf("float cast to int: %d'\n", (int)num ); // float cast to int: 5'
+	printf("char cast to int: %d'\n", (int)letter ); // char cast to int: 65'
+	printf("int cast to char: %c'\n", (char)number ); // int cast to char: d'
+	printf("int cast to float arithmetic: %f'\n", (float)x / (float)y ); // int cast to float arithmetic: 1.400000'
+	printf("double cast to float: %f'\n", (float)decimal); // double cast to float: 0.123457'
+
+	return 0;
+}
+```
