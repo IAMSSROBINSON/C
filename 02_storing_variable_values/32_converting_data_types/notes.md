@@ -18,3 +18,17 @@ newVariableName = (int)fromOriginalVariableName;
 
 // casting does not change the original data-type of the original variable it merely copies the value and converts it to a different data-type for a new variable
 ```
+
+<br>
+
+### Conversions: 
+
+<br>
+
+|From    |To      |Example |
+|:-------|:-------|:-------|
+|float 5.75  |int 5    |value truncates at the decimal point with no rounding.|
+|char 'A'   |int 65    |value converts to the numerical ASCII code value that represents that character|
+|int 65 |char 'A' |integer value converts to the ASCII character code equivalent|
+int x=7, y=5   |float z=x/y  |calculation will convert to 1.0000000 so for accurate calculation the statements need to be casted: (float)x / (float)y = 1.400000|
+double 0.1234569 |float 0.123457   |value will be rounded up or down to nearest figure|
