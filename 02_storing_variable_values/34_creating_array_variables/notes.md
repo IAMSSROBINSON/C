@@ -20,7 +20,7 @@ Array variables are declared with the data-type of the elements in the array fol
 data-type-Of-Array nameOfArray[NumberOfElementsInsideE.g.2];
 
 ```C
-// example of declaring an array:
+// example of declaring an array
 int arr[4];
 ```
 
