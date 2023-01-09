@@ -64,3 +64,25 @@ Adding a null character escape sequence to the last element of the array convert
 char str[4] = {'C', 'a', 't', '\0'};
 ```
 This allows the entire string to be referenced using the name of the array and uses the format specifier `%s`.
+
+## Referencing values
+
+```C
+#include <stdio.h>
+
+int main () {
+	int arr[3];
+
+	arr[0] = 100;
+	arr[1] = 200;
+	arr[2] = 300;
+
+	char text[14] = {'C',' ','P','r','o','g','r','a','m','m','i','n','g','\0'};
+
+	printf("First element value: %d\n", arr[0]); // > First element value: 100
+	printf("Second element value: %d\n", arr[1]); // > Second element value: 200
+	printf("Third element value: %d\n", arr[2]); // > Third element value: 300
+	printf("String value: %s\n", text); // > String value: C Programming
+	return 0;
+}
+```
