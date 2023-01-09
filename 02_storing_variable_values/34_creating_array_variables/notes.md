@@ -65,6 +65,8 @@ char str[4] = {'C', 'a', 't', '\0'};
 ```
 This allows the entire string to be referenced using the name of the array and uses the format specifier `%s`.
 
+<br>
+
 ## Referencing values
 
 ```C
