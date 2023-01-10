@@ -18,7 +18,7 @@ int main () {
 
 	printf("Element[1[0] contains: %d\n", array[1][0]); 	// 1
 	printf("Element[1[1] contains: %d\n", array[1][1]); 	// 2
-	printf("Element[1[2] contains: %d\n\n", array[1][2]); 	// 3 
+	printf("Element[1[2] contains: %d\n\n", array[1][2]); // 3 
 
 
 	return 0;
