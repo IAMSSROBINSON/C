@@ -1,1 +1,1 @@
-# Setting constant values
+# Declaring program constants
