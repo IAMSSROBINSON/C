@@ -5,7 +5,7 @@ int main () {
 	enum SNOOKER{RED = 1, YELLOW, GREEN, BROWN, BLUE, PINK, BLACK};
 
 	// create a int variable to store the sum of a count
-	int total = 0;
+	int total = RED + BLACK + RED + BLUE;
 
 	// display values of some of the constants
 	printf("\nPotting a RED\t is worth: %d\n", RED);
@@ -17,7 +17,7 @@ int main () {
 	printf("Potting a BLACK: is worth: %d\n", BLACK);
 
 	// print the total sum of potting some of the colors
-	printf("\nPotting a RED, BLACK and then a RED, BLUE will score you:\n%d + %d + %d + %d = %d points\n",RED, BLACK, RED, BLUE, RED + BLACK + RED + BLUE);
+	printf("\nPotting a RED, BLACK and then a RED, BLUE will score you:\n%d + %d + %d + %d = %d points\n",RED, BLACK, RED, BLUE, total);
 
 	return 0;
 }
