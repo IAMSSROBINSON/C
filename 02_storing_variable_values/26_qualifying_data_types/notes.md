@@ -20,9 +20,9 @@ long int number2
 
 ## <limits.h> header file
 
-This header file contains a library that allows each data-type to be size to be limited:
+This header file contains a library that allows each data-type size to be limited:
 
-To access this const values are created at the variable declaration:
+To access this CONST values are created at the variable declaration:
 
 ```C
 // int data-type:
