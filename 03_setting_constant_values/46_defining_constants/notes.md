@@ -42,25 +42,32 @@ A preprocessor 'macro' cycle can analyze compiler-defined constants to work out 
 #define SYSTEM "Linux"
 #endif
 
+// macro: to identify Apple host platform
+#ifdef __APPLE__
+#define SYSTEM "Apple"
+#endif
+
 
 int main () {
 	// print the string-text substituted by the preprocessor
 	printf("\n\n\t%s\n\t\t%s\t\n\t%s\n",LINE, TITLE, LINE);
 	printf("\t%s\t\n\n\n", AUTHOR);
+	printf("\n\t\t\tOS:%s\n\n", SYSTEM);
 
 	return 0;
 }
 
-
 /*
 PRINTS:
 
-
-        _________________________________________
+                _________________________________________
                 The C Programming Language
         _________________________________________
           Brian W. Kernighan; Dennis M. Ritchie
 
+
+
+                        OS:Apple
 
 					
 /*
