@@ -22,6 +22,50 @@ The `ifdef` preprocessor instruction can conditionally be used to asses whether 
 
 A preprocessor 'macro' cycle can analyze compiler-defined constants to work out what operating system is being used by the host. This can be different for different machines but with a Windows platformed machine a constant named: _WIN32, and on a Linux platform the presence of a linux constant will usually be present and an `#ifdef` preprocessor directive and appropriate text string can be applied to check the host platform.
 
+<br>
+
+## Example:
+
+```C
+#include <stdio.h>
+#define LINE "_________________________________________"
+#define TITLE "The C Programming Language"
+#define AUTHOR "  Brian W. Kernighan; Dennis M. Ritchie"
+
+// macro: to identify Windows host platform
+#ifdef _WIN32
+#define SYSTEM "Windows"
+#endif
+
+// macro: to identify Linux host platform
+#ifdef linux
+#define SYSTEM "Linux"
+#endif
+
+
+int main () {
+	// print the string-text substituted by the preprocessor
+	printf("\n\n\t%s\n\t\t%s\t\n\t%s\n",LINE, TITLE, LINE);
+	printf("\t%s\t\n\n\n", AUTHOR);
+
+	return 0;
+}
+
+
+/*
+PRINTS:
+
+
+        _________________________________________
+                The C Programming Language
+        _________________________________________
+          Brian W. Kernighan; Dennis M. Ritchie
+
+
+					
+/*
+```
+
 
 
 
