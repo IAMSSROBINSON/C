@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // preprocessor instruction to establish a macro
-#define DEBUG 2
+// #define DEBUG 3
 
 
 
@@ -12,11 +12,11 @@ int main () {
 	#elif DEBUG == 2
 	printf("\nDEBUG status is 2\n"); // DEBUG status is 2
 	#else	
-		#ifdef DEBUG 
-		printf("\nDEBUG is defined\n");
+		#ifdef DEBUG // DEBUG defined but value unmatched
+		printf("\nDEBUG is defined\n"); // DEBUG is defined. 
 		#endif
-		#ifndef DEBUG
-		printf("\nDEBUG is not defined\n");
+		#ifndef DEBUG 
+		printf("\nDEBUG is not defined\n"); 
 		#endif
 	#endif
 
