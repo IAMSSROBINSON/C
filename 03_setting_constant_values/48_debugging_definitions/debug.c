@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-// preprocessor instruction to establish a macro
-#define DEBUG 3
+
 
 
 
@@ -15,8 +14,8 @@ int main () {
 		#ifdef DEBUG // DEBUG defined but value unmatched
 		printf("\nDEBUG is defined\n"); // DEBUG is defined
 		#endif
-		#ifndef DEBUG 
-		printf("\nDEBUG is not defined\n"); 
+		#ifndef DEBUG // No #define instruction exists
+		printf("\nDEBUG is not defined\n"); // DEBUG is not defined.  
 		#endif
 	#endif
 
