@@ -3,7 +3,7 @@
 Conditional branching can be used to execute different sections of code according to the result of the evaluation. The preprocessor instructions used for this are:
 
 - #if
-- #ekse
+- #else
 - #elif (else if) 
 
 <br>
