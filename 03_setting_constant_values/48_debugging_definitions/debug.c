@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 // preprocessor instruction to establish a macro
-#define DEBUG 1
+#define DEBUG 2
 
 
 
 int main () {
 	// preprocessor instruction to evaluate and report the status of DEBUG macro
 	#if DEBUG == 1 
-	printf("\nDEBUG status is 1\n");
+	printf("\nDEBUG status is 1\n"); // DEBUG status is 1
 	#elif DEBUG == 2
-	printf("\nDEBUG status is 2\n");
+	printf("\nDEBUG status is 2\n"); // DEBUG status is 2
 	#else	
 		#ifdef DEBUG 
 		printf("\nDEBUG is defined\n");
