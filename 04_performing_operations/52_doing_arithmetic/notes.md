@@ -19,8 +19,8 @@ The usual arithmetic operators are used to perform operations (with parenthesis 
 ## Modulus %
 
 This operator divides a given number by a second given number and returns the remainder. 
-If the remainder is 0 the given number is of 'even' value.
-If the remainder is 1 the given number is of 'odd' value.
+If the modulus of a given number by 2 remainder is 0 the given number is of 'even' value.
+If the modulus of a given number by 2 remainder is 1 the given number is of 'odd' value.
 
 <br>
 
