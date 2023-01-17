@@ -4,8 +4,8 @@ The operators used to assign values are:
 
 <br>
 
-|Operator | Example					| Equivalent		|
-|:--------|:----------------|:--------------|
+|Operator |Example					|Equivalent		  |Explanation																		|
+|:--------|:----------------|:--------------|:----------------------------------------------|
 |=				| a = b 					|a = b					|'a' assigned value contained in 'b'						|
 |+=				| a += b 					|a = (a + b)		|'a' assigned value of 'a' + 'b' operation			|
 |-+				| a -= b 					|a = (a - b)		|'a' assigned value of 'a' - 'b' operation			|
