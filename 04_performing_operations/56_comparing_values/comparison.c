@@ -11,7 +11,7 @@ int main () {
 	printf("Equality (0==0): %d\n", zero == nil); // 1
 	printf("Equality (0==1): %d\n", zero == one); // 0
 	printf("Equality (A==a): %d\n", upr == lwr); // 0
-	printf("Inquality (A!=a): %d\n", upr != lwr); // 1 (ASCI: A:65 a:97)
+	printf("Inquality (A!=a): %d\n", upr != lwr); // 1 (ASCII: A:65 a:97)
 	printf("Greater than (1>0): %d\n", one > nil); // 1
 	printf("Less than (1<0): %d\n", one < nil); // 0
 	printf("Grean than or equal to (0>=0): %d\n", zero >= nil); // 1
