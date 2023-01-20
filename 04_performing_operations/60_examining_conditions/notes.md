@@ -40,7 +40,7 @@ The operator can also be used to assign a value to a variable dependent on resul
 int number, a = 5, b = 2; // 3 int variables declared (last 2 initialized)
 num = (a > b) ? a : b;
 
-// a is greater than b thus is assigned the value of a(5)
+// a is greater than b thus num variable is assigned the value of a(5)
 ```
 
 
