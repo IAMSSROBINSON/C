@@ -55,7 +55,7 @@ int main () {
 	// declare and initialize int variable
 	int number = 100;
 
-	// use ternary to output correct result parity dependant
+	// use ternary to output correct result parity dependent
 	printf("The number: %d is: %s\n",number, (number % 2 == 0) ? "Even" : "Odd"); // The number: 100 is: Even
 
 
