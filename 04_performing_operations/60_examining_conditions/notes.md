@@ -32,7 +32,7 @@ printf("There %s %d", (num == 1) ? "is" : "are", num);
 
 <br>
 
-The operator can also be used to assign a value to a variable dependant on results;
+The operator can also be used to assign a value to a variable dependant on results:
 
 ```C
 // if variable value 'a' is greater than variable value 'b' then assign it to the value of given variable
