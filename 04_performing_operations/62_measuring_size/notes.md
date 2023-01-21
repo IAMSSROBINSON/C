@@ -23,12 +23,12 @@ int main () {
 
 ### Typical storage values
 
-|Data-type  | Memory in bytes |
-|:----------|:----------------|
-|char    	  |1 byte					  |
-|int      	|4 byte					  |
-|float     	|4 byte					  |
-|double     |8 byte					  |
+|Data-type  | Memory in bytes   |
+|:----------|:------------------|
+|char    	  |1 byte					    |
+|int      	|4 bytes					  |
+|float     	|4 bytes					  |
+|double     |8 bytes					  |
 
 (Memory in bytes may vary as they are not defined by the standards and are implementations defined - it is best to use the `sizeof()` operator to measure actual memory allocation)
 
@@ -42,7 +42,7 @@ The memory allocated for an array = amount of elements in array * data-type memo
 #include <stdio.h>
 
 int main () {
-	
+
 	printf("%lu bytes\n", sizeof(int[3])); // will return: 12 bytes (3 * 4 = 12)
 
 	return 0;
