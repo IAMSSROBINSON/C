@@ -17,6 +17,7 @@
 		char class;
 	} saveResult;
 
-	printf("Size of struct: %lu bytes\n", sizeof(saveResult)); 
+	printf("Size of struct: %lu bytes\n", sizeof(saveResult)); // returns 8 bytes
+	// int(4 bytes) + char(1 byte) should = 5bytes but 32-bit computer systems can add a padding value as they like to read and write data in word size chunks of 4 bytes and thus allocate memory in multiples of 4 so 8 bytes are allocated here
 	return 0;
 }
