@@ -27,13 +27,19 @@ The 'char' data-type is known for being a basic 1 byte storage unit and it is po
 
 ## Bitwise operators
 
+Bitwise operators are typically only used when programming for a device with limited resources.
+
 <br>
 
-|Operator		|Name		      |Binary number operation																					 |Example			      	|
-|:---------:|:------------|:-----------------------------------------------------------------|:-------------------|
+|Operator		|Name		      |Binary number operation																					   |Example			      	|
+|:---------:|:------------|:-------------------------------------------------------------------|:-------------------|
 |\|					|OR						|Return a 1 in each bit where 'either' of two compared bits is a 1	 |1010 \| 0101 = 1111	|
 |&					|AND					|Return a 1 in each bit where 'both of' two compared bits is a 1	 	 |1010 & 1100 = 1000	|
 |~					|NOT					|Return a 1 in each bit where 'neither' of two compared bits is a 1	 |1010 ~ 0011 = 0100	|
 |^					|XOR					|Return a 1 in each bit where 'only one' of two compared bits is a 1 |1010 ^ 0100 = 1110	|
 |<<					|SHIFT LEFT		|Move each bit that is a 1 a specified number of bits to the 'left'	 |0010 << 2 = 1000  	|
 |>>					|SHIFT RIGHT	|Move each bit that is a 1 a specified number of bits to the 'right' |1000 >> 2 = 0010  	|
+
+<br>
+
+ Although rarely used bitwise operators can be useful in some cases e.g. the ^XOR (eXclusive OR) operator allows for exchanging values between two variables without the need for a third variable.
