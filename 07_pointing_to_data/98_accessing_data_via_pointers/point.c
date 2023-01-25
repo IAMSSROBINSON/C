@@ -12,7 +12,6 @@ int main () {
 	printf("Pointer variable deferenced value pointed to: %d\n\n", *ptr_number); // 100
 
 	// assign new value to regular variable via pointer and display results
-
 	*ptr_number = 200;
 	printf("Regular variable value: %d\n", number); // 200
 	printf("Pointer variable stores memory of regular variable: %p\n", ptr_number); // 0x16bb7b188
