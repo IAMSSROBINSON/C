@@ -27,7 +27,7 @@ The logical && (AND) operator helps acheive this by requiring that both expressi
 ### Syntax:
 
 ```C
-if (test expression) && (test expression) {
+if (test expression && test expression) {
 	statements to be executed;
 	}
 ```
