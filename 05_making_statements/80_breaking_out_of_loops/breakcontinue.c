@@ -2,12 +2,9 @@
 
 int main () {
 
-	// declare 2 int variables
+	// declare 2 int variables for use within loops
 	int i, j;
 
-	// use two nested loops to display their counter values on each of their 3 iterations
-
-	
 	for(int i = 1; i < 4; i++){
 		for(int j = 1; j < 4; j++){
 			if(i == 1 && j == 1){
