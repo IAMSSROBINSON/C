@@ -10,7 +10,7 @@ Most C programs contain custom functions that are called to execute the statemen
 
 <br>
 
-## Function prototype / Function declaration
+## Function prototype / Function declaration / Function header
 
 Custom function declarations inform the compiler about the function and should be added before the `main()` function so that they can be used. 
 If the function is to return no value then the return data-type `void` should be present before the function name in within the declaration.
