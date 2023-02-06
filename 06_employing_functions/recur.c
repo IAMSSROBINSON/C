@@ -9,7 +9,7 @@ int main () {
 	int startingNumber;
 
 	// prompt user for input
-	printf("Please enter a whole number:");
+	printf("Please enter a whole number: ");
 	scanf("%d", &startingNumber);
 	printf("\n");
 
@@ -35,3 +35,24 @@ void counting_down_from (int startingNumber) {
 		counting_down_from(startingNumber);
 	}
 }
+
+/*
+
+DISPLAYED OUTPUT:
+
+Please enter a whole number: 10
+
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+We have lift off!
+
+*/
