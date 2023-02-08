@@ -1,6 +1,6 @@
 # Using global variables 
 
-Variable scope: The extent to which a variable is accessibile within a program.
+Variable scope: The extent to which a variable is accessible within a program.
 
 <br>
 
@@ -10,7 +10,7 @@ Variable scope: The extent to which a variable is accessibile within a program.
 ### Local:
 Local variables: Variables declared within a function
 
-* Only accessibile from within the function in which they were declared (implicit default behavior. Can be explicitly applied with `auto` keyword at declaration).
+* Only accessible from within the function in which they were declared (implicit default behavior. Can be explicitly applied with `auto` keyword at declaration).
 
 ```C
 #include <stdio.h>
@@ -61,7 +61,7 @@ int main () {
 
 ### Limiting scope
 
-Using the `static` keyword at declaration can limit the accessibility and availibility of a global variable and or function to the file in which they were created. 
+Using the `static` keyword at declaration can limit the accessibility and availability of a global variable and or function to the file in which they were created. 
 
 ```C
 // static global variable accessible / confined to this program but available to all functions inside it:
@@ -78,4 +78,4 @@ int main () {
 
 * A program cannot have more than one variable with the same name unless it is prefixed with the `static` keyword. 
   
-* Local variables can also be declared as `static` denoting as usual that they are only accessbile within the function in which they were declared but they do not dissapear when the functions ends they are stored until the program ends.
+* Local variables can also be declared as `static` denoting as usual that they are only accessible within the function in which they were declared but they do not disappear when the functions ends they are stored until the program ends.
