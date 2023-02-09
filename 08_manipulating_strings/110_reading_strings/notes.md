@@ -2,6 +2,9 @@
 
 Strings are arrays of characters with `\0` characters placed as the last element in the array. Because they are arrays the name of the array acts like a pointer to the entire string of characters. 
 
+Single characters should be enclosed by single quotes: 'C';
+Multi-character strings should be enclose by double quotes: "ABC";
+
 <br>
 
 ## What characters are included
@@ -46,6 +49,33 @@ int main () {
 	return 0;
 }
 ```
+
+<br>
+
+## String inputs
+
+A string word or character can be taken from a user using the `scanf()` function but it stops reading when it comes across a space and thus cannot read sentences. 
+
+<br>
+
+## <stdio.h> multi-word solution to scanf()
+
+### fgets()
+
+- reads inputs from user
+- accepts all characters ad spaces as characters 
+- assigns the string to a character array(*pointer) with string as its first argument
+- second argument should specify the number of characters to read
+- third argument should specify where to read from e.g. stdin for standard input
+- automatically adds `\0' null character to the end of the character array when return key is pressed by the user giving the string constant status
+
+<br>
+
+### puts()
+
+- outputs a string given as its argument
+- automatically adds `\0' null character to the end of the string
+- automatically adds a '\n' newline after the output
 
 <br>
 
