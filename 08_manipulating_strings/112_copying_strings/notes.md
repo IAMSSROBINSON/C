@@ -18,7 +18,7 @@ Copies strings from one string character array to another. First argument is the
 
 ## `strncpy()` String copy + length
 
-`strncpy()` copies strings just like `strcpy()` but a third argument is provided of how much (in length) of the string to copy. Stops copying at the null character so it is not copied itself but after the string is copied a null character is added to the destination char array so the destination must always have +1 more character length available to accommodate for null character. 
+`strncpy()` copies strings just like `strcpy()` but a third argument is provided of how much (in length) of the string to copy. Stops copying at the null character so it is not copied itself but after the string is copied a null character is added to the destination char array so the destination must always have / specify +1 more character length available to accommodate for null character. 
 
 
 
