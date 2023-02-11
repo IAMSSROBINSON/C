@@ -27,6 +27,5 @@ Syntax:
 
 `strncat(firstString, secondStringToAddToFirstString, lengthOfSecondStringToConcatenate);`
 
-- Third argument specifies how much (in numerical character length) of the second string to concatenate to the first
-- Second argument pointer name is used to point to first character of second argument string so using parenthesis arithmetic can be done e.g. `firstString, (secondStringToAddToFirstString + 3), length;`
-- firstString array must be large enough to accommodate all concatenated strings to avoid error
+- The string being added(the second argument) begins at position 0 of that string and ends at the position of the third argument BUT because the name of the char array also acts as a pointer to the first element/character arithmetic can be done to alter the starting position
+- firstString array must still be large enough to accommodate all concatenated strings to avoid error
