@@ -47,7 +47,7 @@ int main () {
 
 	strstr(stringToSearch, "is");
 
-	printf("%ld\n", stringToSearch - strstr(stringToSearch, seekThisSubString)); // -2
+	printf("%ld\n", strstr(stringToSearch, seekThisSubString) - stringToSearch); // 2
 
 	return 0;
 } 
