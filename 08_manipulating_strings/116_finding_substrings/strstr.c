@@ -13,7 +13,7 @@ int main () {
 	}
 
 	// display memory address and element index number within first string at which first character of substring occurs
-	printf("%s Found at Memory Address: %p\n", substring,  strstr(string, substring)); // 0x16d373153
+	printf("\"%s\" Found at Memory Address: %p\n", substring,  strstr(string, substring)); // 0x16d373153
 	printf("Element Index Number: %ld\n",  strstr(string, substring) - string); // 3
 
 	// display results of comparisons
