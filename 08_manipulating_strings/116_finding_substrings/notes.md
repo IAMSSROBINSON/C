@@ -67,7 +67,7 @@ Syntax:
 
 <br>
 
-## `strchr()` and `strrchr`
+## `strchr()` and `strrchr()`
 
 The function `strchr()` is used to find the occurrence of a character within a string.
 The function `strrchr()` is used to find the last occurrence of a character within a string.
