@@ -51,4 +51,19 @@ A23456
 Letter: A found!
 Invalid Entry!
 
+--------------------------------
+
+
+Enter six digits without spaces: 
+123@56
+Punctuation found!
+Invalid Entry!
+
+--------------------------------
+
+Enter six digits without spaces: 
+123 56
+Space found!
+Invalid Entry!
+
 */
