@@ -22,7 +22,7 @@ There are many function included in the `<ctype.h>` header file. When the functi
 
 ### isdigit();
 
-`isdigit();` also expressed as `isdigit() == 0;` Tests whether a character is of numerical value. 
+`isdigit();` also expressed as `isdigit() == 0;` tests whether a character is of numerical value. 
 
 <br>
 
@@ -58,5 +58,5 @@ There are many function included in the `<ctype.h>` header file. When the functi
 
 ### tolower();
 
-`tolower();` Changes a character to be lowercase.
+`tolower();` changes a character to be lowercase.
 
