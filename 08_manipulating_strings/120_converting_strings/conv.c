@@ -36,9 +36,5 @@ int main () {
 	// Decimal: 12 is Hexadecimal: c chars: 1
 
 
-
-
-
-
 	return 0;
 }
