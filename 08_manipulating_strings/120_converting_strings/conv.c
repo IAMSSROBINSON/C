@@ -12,5 +12,9 @@ int main () {
 	number1 = atoi(string1);
 	printf("String %s converts to Integer %d: \n", string1, number1);
 
+	number2 = atoi(string2);
+		printf("String %s converts to Integer %d: \n", string2, number2);
+
+
 	return 0;
 }
