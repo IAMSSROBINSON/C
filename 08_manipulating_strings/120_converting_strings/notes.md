@@ -13,7 +13,7 @@ The `atoi()` function:
 - returns 0 if the strings first character is not a number
 - returns 0 if the strings first character is not a minus sign(-)
 
-Otherwise the string/numeric part of the string is converted to an int data-type up until the `atoi()` function meets a non-numeric character in the string. When it meet a non-numeric character it will return the number so far converted as an int data-type.
+Otherwise the string/numeric part of the string is converted to an int data-type up until the `atoi()` function meets a non-numeric character in the string. When it meeta a non-numeric character it will return the number so far converted as an int data-type.
 
 <br>
 
