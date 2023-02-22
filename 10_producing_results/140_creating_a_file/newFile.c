@@ -14,7 +14,9 @@ int main () {
 		fclose(file_ptr);
 	} else {
 		printf("Failed! Unable to create file.\n");
+		return 1; // return 1; if file creation fails returning 1 tells the system something went wrong
 	}
+
 
 	return 0;
 }
