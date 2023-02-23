@@ -37,6 +37,7 @@ There are other standard functions that have stdin or stdout as their default fi
 ### `fputc();`	
 
 - writes to a filestream one character at a time (typically by looping through char array)
+- returns ASCII code for current character or constant EOF denoting end of file is reached == -1
 
 ### `fgetc();`
 
