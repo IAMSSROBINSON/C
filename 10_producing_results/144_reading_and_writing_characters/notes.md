@@ -5,7 +5,7 @@
 ### `stdin` represents the keyboard
 
 - default source for `scanf();` function
-- scanf(...); == fscanf(stdin, ...);
+- `scanf(...);` == `fscanf(stdin, ...);`
 
 <br>
 
@@ -20,7 +20,7 @@
 ### `stdout` represents the monitor
 
 - default source for printf(); function
-- printf(); == fprintf(stdout, ...);
+- `printf();` == `fprintf(stdout, ...);`
 
 <br>
 
@@ -38,7 +38,7 @@ There are other standard functions that have stdin or stdout as their default fi
 
 - writes to a filestream one character at a time (typically by looping through char array)
 
-### `fputc();`
+### `fgetc();`
 
 - reads from a filetream one character at a time
 
