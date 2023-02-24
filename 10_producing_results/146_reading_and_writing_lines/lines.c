@@ -11,9 +11,13 @@ int main () {
 	file_ptr = fopen("quote.txt", "r+a");
 	if(file_ptr != NULL){
 		printf("File quote.txt opened\n");
+
+		while(fgets(sentence, 50, file_ptr)){
+			printf("%s", sentence);
+		}
 	}
 
-	
+
 
 
 
