@@ -10,6 +10,8 @@ int main () {
 
 	// open text file for reading + appending 
 	file_ptr = fopen("quote.txt", "r+a");
+
+	// read and display all lines from file
 	if(file_ptr != NULL){
 		printf("File quote.txt opened\n");
 
