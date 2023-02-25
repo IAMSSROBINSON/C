@@ -19,7 +19,7 @@ int main () {
 	// write array content to second file
 	if((original_ptr != NULL) && (copy_ptr != NULL)){
 		number = fread(buffer, 1, 1000, original_ptr);
-		fwrite(buffer, 1, 1000, copy_ptr);
+		fwrite(buffer, 1, number, copy_ptr);
 
 		// close files when complete
 		fclose(original_ptr);
