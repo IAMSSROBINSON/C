@@ -8,14 +8,14 @@
 - from `<stdio.h>` header file
 - prints descriptive error messaes
 - require a "string" as its argument
-- returns colon with description of current error
+- returns colon with description of current error e.g. `Error: No such file or directory`
 
 <br>
 
 ## `<errno.h>`
 
 - `<errno.h>` header file
-- defines integer expression "errno" that is assigned an error code when an errors occur. There are a range of codes that correspond to different types of error as the amount is different depending on what system you are running (Linux has more than Windows).
+- defines integer expression "errno" that is assigned an error code when errors occur. There are a range of codes that correspond to different types of error as the amount is different depending on what system you are running (Linux has more than Windows).
 
 <br>
 
