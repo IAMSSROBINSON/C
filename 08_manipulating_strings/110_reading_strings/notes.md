@@ -63,7 +63,7 @@ A string word or character can be taken from a user using the `scanf()` function
 ### fgets()
 
 - reads inputs from user
-- accepts all characters ad spaces as characters 
+- accepts all characters and spaces as characters 
 - assigns the string to a character array(*pointer) with string as its first argument
 - second argument should specify the number of characters to read
 - third argument should specify where to read from e.g. stdin for standard input
