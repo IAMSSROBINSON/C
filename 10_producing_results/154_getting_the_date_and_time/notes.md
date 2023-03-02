@@ -1,6 +1,6 @@
 # Getting the date and time
 
-System time is calculated as the number of seconds the have gone by since 00:00:00 GMT on January 1st 1970.
+System time is calculated as the number of seconds the have gone by since the epoch event of 00:00:00 GMT on January 1st 1970.
 
 The total count represents the current date and time in accordance with the Georgian calendar is referred to as 'Calendar time'.
 
