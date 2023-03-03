@@ -1,6 +1,6 @@
 # Displaying a dialog box
 
-C programs can produce graphical components using special functions, on Windows these are provided by the WINAPI (Windows Application Programming Interface) - which is made available to the program by adding the compiler directive to include the Windows specific `<window.h> header file.
+C programs can produce graphical components using special functions, on Windows these are provided by the WINAPI (Windows Application Programming Interface) - which is made available to the program by adding the compiler directive to include the Windows specific `<windows.h>` header file.
 
 <br>
 
