@@ -16,6 +16,6 @@ The American National Standards Institute formalized the C language in 1989 and 
 
 <br>
 
-## Libraries
+## Standard C Libraries
 
 ANSI C defines many 'standard' libraries. The libraries contain functions (code that can be re-used repeatedly in a program) contained in 'header files' (with a .h extension) that can be used in C programs. 1/3 of the entire C library is represented by the `<stdio.h>` header file containing input and output functions, types and macro definitions.
