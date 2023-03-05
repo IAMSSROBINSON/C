@@ -8,7 +8,9 @@ C programs are written as plain text files saved with a '.c' file extension.
 
 The program must first be 'compiled' - converted into machine code / lower level form that the computer can understand e.g. byte code.
 
-The compiler:
+<br>
+
+### The compiler process
 
 - reads the text code the program is written in
 - translates the text into a second file which is machine readable and executable byte format
