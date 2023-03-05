@@ -10,7 +10,7 @@ The program must first be 'compiled' - converted into machine code / lower level
 
 <br>
 
-### The compiler process
+### The compilation process
 
 - reads the text code the program is written in
 - translates the text into a second file which is machine readable and executable byte format
