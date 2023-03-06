@@ -35,6 +35,12 @@ dataType functionName () {
 
 <br>
 
+## Arguments / Parameters
+
+After the function names comes a set of parenthesis `()` that may optionally contain values / arguments / parameters to be used in the program. More than one can be included by specifying a comma separated list inside of the parenthesis.
+
+<br>
+
 ## Return value required by function declaration
 Once the function has executed the statements it can return a value to the caller. The value must be of the `dataType` specified before the `functionName`:
 
@@ -68,12 +74,4 @@ int main () {
 <br>
 
 The program is now ready to be compiled into machine readable byte format as an executable file. 
-
-When the compilation is successful the compiler creates an executable file alongside the original source code file.
-
-`gcc hello.c -o hello.exe` command will create  an executable file named `hello.exe` alongside the original source code file.
-
-`./hello.exe` command will now run the program and the output will be visible. 
-
-
 
